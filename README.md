@@ -1,9 +1,9 @@
 # linux-server-config
-Config that Ubuntu
+Config that Ubuntu and serve web apps
 
-IP Address: 142.93.30.236
-Port: 2254
-URL: http://142.93.30.236
+- IP Address: 142.93.30.236
+- Port: 2254
+- URL: http://142.93.30.236
 
 ## Summary
 - installed and configured Linux/Ubuntu on virtual machine
@@ -28,7 +28,14 @@ URL: http://142.93.30.236
 - PostgreSQL-contrib
 - Python 3.6
 - Apache2
+- Flask
+- SQLAlchemy
+- Bcrypt
+- GitHub OAuth 2.0
 - Node
 - npm
+- Bootstrap
+- KnockoutJS
 - Webpack
 - JavaScript
+- Requests
