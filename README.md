@@ -2,23 +2,25 @@
 Config that Ubuntu and serve web apps
 
 - IP Address: 142.93.30.236
-- Port: 2254
 - URL: http://142.93.30.236
 
 ## Summary
-- installed and configured Linux/Ubuntu on virtual machine
+- installed and configured Linux/Ubuntu on virtual machine (Digital Ocean Droplet)
 - configured security
-    - Limited user access SSH Key login only
+    - Removed root SSH login ability (console login only)
+    - Limited user access SSH Public key login only
+    - Created a dev user with sudo privileges
     - Customized SSH ports
-    - Set up firewall
-    - Set up user groups and privileges
+    - Set up firewall (ufw)
+    - Set up user groups and related privileges
+    - Set up file permissions
     - updated packages
 - installed LAPP stack
-    - configured apache2 to serve my very own webapp! woo!
+    - configured apache2 to serve web appliction
     - configured PostgreSQL users and security
     - set up database
     - connected all the things
-- Set up a python virtual environment 
+- Set up a python virtual environment and deameons
 
 ## Thrid-party resources
 - Digital Ocean cloud services
@@ -28,7 +30,9 @@ Config that Ubuntu and serve web apps
 - PostgreSQL-contrib
 - Python 3.6
 - Apache2
+- libapache2-mod-wsgi-py3
 - Flask
+- VirtualEnv (Python dependencies)
 - SQLAlchemy
 - Bcrypt
 - GitHub OAuth 2.0
